@@ -84,7 +84,7 @@
       if ('removeEventListener' in element)
         element.removeEventListener(realEvent(handler.e), handler.proxy, eventCapture(handler, capture))
       })
-    })
+    })dd
   }
 
   $.event = { add: add, remove: remove }
